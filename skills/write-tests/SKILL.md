@@ -52,14 +52,21 @@ Do not invent functions, APIs, files, or behaviour that are not present in the c
 
 ### 4. Format the output consistently
 
-The response must contain:
+Always use these four headings, in this order:
 
-1. A short summary of what is being tested.
-2. The generated test code.
-3. A brief explanation of what each test checks.
-4. Any assumptions or missing information that affected the tests.
+#### Summary
+Give a short summary of what is being tested.
 
-Organise the tests clearly so another developer can understand what is covered.
+#### Test Code
+Provide the generated test code.
+
+#### What Each Test Checks
+Briefly explain what each individual test checks.
+
+#### Assumptions and Missing Information
+List any assumptions, missing context, or information that affected the tests.
+
+Do not omit any of these four sections.
 
 Do not claim that the tests pass unless they have actually been run in an environment where that can be verified.
 
